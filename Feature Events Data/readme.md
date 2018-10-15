@@ -1,6 +1,6 @@
 # Feature Events Data
 
-This `featureEvents.json` request body will generate a response that generates detailed feature event data for a visitor by account.  The number of events and minutes spent are summed by day.
+This `featureEvents.json` request body will generate a response that provides detailed feature event data for a visitor by account.  The number of events and minutes spent are summed by day.
 
 POST https://app.pendo.io/api/v1/aggregation
 
