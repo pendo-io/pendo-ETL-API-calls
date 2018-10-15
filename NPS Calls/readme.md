@@ -19,7 +19,7 @@ The output rows for these independent requests are then combined using `join`. I
 
 ### PII and visitorId
 
-The provide request body contains a simple hash of the visitorId:
+The provided request body contains a simple hash of the visitorId:
 ```
 {"eval":{"visitorId": "hash(visitorId)"}},
 ```
