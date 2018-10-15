@@ -1,0 +1,23 @@
+{
+    "response": {},
+    "request": {
+        "name": "pollIds",
+        "pipeline": [
+            {
+                "source": {
+                    "guides": null
+                }
+            },
+            {
+                "filter": "id==`yourGuideId`"
+            },
+            {
+                "select": {
+                    "pollId1": "polls[0].id",
+                    "pollId2": "polls[1].id"
+                }
+            }
+        ],
+        "requestId": "pollIds"
+    }
+}
