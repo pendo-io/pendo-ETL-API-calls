@@ -1,4 +1,4 @@
-# NPS Responses
+# NPS Quantitative and Qualitative Response Data
 
 ## 1. Get Poll IDs
 
