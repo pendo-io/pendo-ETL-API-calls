@@ -1,6 +1,6 @@
 # Page Events Data
 
-This `pageEvents.json` request body will generate a response that generates detailed event data for a visitor by account.  The number of events and minutes spent are summed by day.
+This `pageEvents.json` request body will generate a response that generates detailed page event data for a visitor by account.  The number of events and minutes spent are summed by day.
 
 POST https://app.pendo.io/api/v1/aggregation
 
