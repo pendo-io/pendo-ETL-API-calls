@@ -2,12 +2,12 @@
 
 ## 1. Get Poll IDs
 
-Using the `getPollIds.json` request, insert the `<GUIDE ID>` value. This value can be found by navigating to the guide details view in Pendo. You will notice the URL is of the form `https://app.pendo.io/guides/pnsd2f9FBXwgDDqEdpKaV-ueMXA` where `pnsd2f9FBXwgDDqEdpKaV-ueMXA` is `<GUIDE ID>`. Running this request will return the two poll IDs you will need for the next request.
+Using the `getPollIds.json` request, insert the `yourGuideId` value. This value can be found by navigating to the guide details view in Pendo. You will notice the URL is of the form `https://app.pendo.io/guides/pnsd2f9FBXwgDDqEdpKaV-ueMXA` where `pnsd2f9FBXwgDDqEdpKaV-ueMXA` is `yourGuideId`. Running this request will return the two poll IDs you will need for the next request.
 
 ## 2. Plug Poll IDs into second request
 
 ### combinedNpsResponses.json request
-You will need to substitute the overall guide ID that you located in the first step in for the `<GUIDE ID>` variables. NPS Polls are actually considered two separate polls in the Pendo backend, which is why you have two poll IDs for both the quantitative response (0-10) and qualitative responses. Substitute these values in for `<POLL ID 1>` and `<POLL ID 2>` respectively.
+You will need to substitute the overall guide ID that you located in the first step in for the `yourGuideId` variables. NPS Polls are actually considered two separate polls in the Pendo backend, which is why you have two poll IDs for both the quantitative response (0-10) and qualitative responses. Substitute these values in for `pollId1` and `pollId2` respectively.
 
 ### Aggregation Breakdown
 
