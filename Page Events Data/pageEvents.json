@@ -1,0 +1,24 @@
+{
+    "channelId": "",
+    "response": {
+        "location": "request",
+        "mimeType": "application/json"
+    },
+    "request": {
+        "name": "",
+        "pipeline": [
+            {
+            "source": {
+                "featureEvents": null,
+            	"timeSeries": {
+            	"period": "dayRange",
+            	"first": "now()",
+            	"count": -1
+            				}
+                		}
+            }
+
+        ],
+        "requestId": ""
+    }
+}
