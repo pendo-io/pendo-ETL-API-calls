@@ -11,8 +11,8 @@
                         {
                             "source": {
                                 "pollsSeenEver": {
-                                    "guideId": "<GUIDE ID>",
-                                    "pollId": "<POLL ID 1>"
+                                    "guideId": "yourGuideId",
+                                    "pollId": "pollId1"
                                 }
                             }
                         },
@@ -35,8 +35,8 @@
                         {
                             "source": {
                                 "pollsSeenEver": {
-                                    "guideId": "<GUIDE ID>",
-                                    "pollId": "<POLL ID 2>"
+                                    "guideId": "yourGuideId",
+                                    "pollId": "pollId2"
                                 }
                             }
                         },
