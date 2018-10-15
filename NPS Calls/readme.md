@@ -16,3 +16,11 @@ This request utilizes `spawn` which allows you to execute multiple pipelines in 
 Each pipeline returns all responses over the poll's lifetime and we then isolate the `visitorId`, `accountId`, responses, and response times using the `select` operator. `select` simply specifies which pieces of the row source's output are of interest and allows for field names to be specified. 
 
 The output rows for these independent requests are then combined using `join`. In this case, the request looks for matching `visitorId` values and combines rows that with identical values.
+
+### PII and visitorId
+
+The provide request body contains a simple hash of the visitorId:
+```
+{"eval":{"visitorId": "hash(visitorId)"}},
+```
+You can remove this line in its entirety if you don't have a need to obscure or encode it.
