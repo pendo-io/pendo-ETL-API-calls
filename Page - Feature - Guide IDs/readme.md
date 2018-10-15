@@ -1,6 +1,8 @@
 # Page - Feature - Guide IDs and their Human-readable Names
 
-This `featureEvents.json` request body will generate a response that generates detailed feature event data for a visitor by account.  The number of events and minutes spent are summed by day.
+The request bodies in this folder will generate responses that provide you with the internal Pendo ID values for pages, features and guides as well as the human-readable names assigned to those IDs.  
+
+The output from these requests can be useful to include in your ETL jobs so you can periodically load tables for each into your BI environment then join these tables to get human-readable values for these objects when you don't already have them in other API call request bodies.
 
 POST https://app.pendo.io/api/v1/aggregation
 
@@ -9,9 +11,3 @@ POST https://app.pendo.io/api/v1/aggregation
 Content-Type: application/json
 
 X-Pendo-Integration-Key: $insert-pendo-key$
-
-## Important:
-
-The current request body is set to collect data for the day before the day the API call is executed.  You can gather data for a longer period of time by changing this value from 1 to some other value.
-
-Please **DO NOT** set the value to something greater than 30 as it will retrieve a large data set that could impact performance.  Instead, we ask that you keep the value set to 1 and run your ETL process daily then append the data to the table in which you're loading it.
