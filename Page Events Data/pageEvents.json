@@ -9,7 +9,7 @@
         "pipeline": [
             {
             "source": {
-                "featureEvents": null,
+                "pageEvents": null,
             	"timeSeries": {
             	"period": "dayRange",
             	"first": "now()",
