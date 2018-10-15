@@ -1,0 +1,24 @@
+{
+    "channelId": "",
+    "response": {
+        "location": "request",
+        "mimeType": "application/json"
+    },
+    "request": {
+        "name": "",
+        "pipeline": [
+            {
+                "source": {
+                    "pages": null
+                }
+            },
+            {
+                "select": {
+                    "id": "id",
+                    "name": "name"
+                }
+            }
+        ],
+        "requestId": ""
+    }
+}
