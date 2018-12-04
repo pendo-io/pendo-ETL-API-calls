@@ -1,0 +1,31 @@
+{
+  "response": {
+    "mimeType": "application/json"
+  },
+  "request": {
+    "pipeline": [
+      {
+        "source": {
+          "visitors": null
+            }
+        },
+        {
+          "identified": "!visitorId"
+        },
+				{
+          "select": {
+            "visitorId": "visitorId",
+            "firstvisit": "metadata.auto.firstvisit",
+          	"lastbrowsername": "metadata.auto.lastbrowsername",
+          	"lastbrowserversion": "metadata.auto.lastbrowserversion",
+          	"lastoperatingsystem": "metadata.auto.lastoperatingsystem",
+         	 	"lastservername": "metadata.auto.lastservername",
+						"lastupdated": "metadata.auto.lastupdated",
+          	"lastuseragent": "metadata.auto.lastuseragent",
+          	"lastvisit": "metadata.auto.lastvisit",
+						"accountids": "metadata.auto.accountids"
+          }
+        }
+    ]
+  }
+}
