@@ -1,0 +1,32 @@
+{
+  "response": {
+    "mimeType": "application/json"
+  },
+  "request": {
+    "pipeline": [
+      {
+        "source": {
+          "accounts": null
+            }
+        },
+        {
+          "identified": "accountId"
+        },
+				{
+          "select": {
+            "accountId": "accountId",
+            "firstvisit": "metadata.auto.firstvisit",
+          	"name": "metadata.agent.name",
+						"lastupdated": "metadata.auto.lastupdated",
+          	"lastvisit": "metadata.auto.lastvisit",
+						"arrannuallyrecurringrevenue": "metadata.custom.arrannuallyrecurringrevenue",
+          	"customersuccessmanager": "metadata.custom.customersuccessmanager",
+          	"industry": "metadata.custom.industry",
+          	"planlevel": "metadata.custom.planlevel",
+          	"renewaldate": "metadata.custom.renewaldate",
+          	"totallicenses": "metadata.custom.totallicenses"
+          }
+        }
+    ]
+  }
+}
