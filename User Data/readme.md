@@ -1,7 +1,15 @@
-# New Users Last X Days
+# Visitor and Account Data API Calls
 
-This simple API request will pull visitor IDs and first visit timestamp for all new users in the last 7 days.
+For the Pendo Usage Looker Block example, please download and use the following API call bodies:
 
+- Visitors
+- Accounts
+
+Follow the instructions in the Block to leverage these API calls for table builds needed to support the Looker Dashboard.
+
+Alternativel, use them and the following API calls to explore Visitor and Account data for your own non-Looker purposes.
+
+All of these API calls use the following:
 
 POST https://app.pendo.io/api/v1/aggregation
 
@@ -10,6 +18,14 @@ POST https://app.pendo.io/api/v1/aggregation
 Content-Type: application/json
 
 X-Pendo-Integration-Key: $insert-pendo-key$
+
+## Anonymous Visitors
+
+This API call enables you to pull all of the Pendo designated Anonymous Visitors from your subscription.
+
+## New Users Last X Days
+
+This API request will pull visitor IDs and first visit timestamp for all new users in the last 7 days.
 
 ### Options for the API call
 
