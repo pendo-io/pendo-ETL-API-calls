@@ -7,7 +7,7 @@ For the Pendo Usage Looker Block example, please download and use the following 
 
 Follow the instructions in the Block to leverage these API calls for table builds needed to support the Looker Dashboard.
 
-Alternativel, use them and the following allGuides API call to explore this data for your own non-Looker purposes.
+Alternatively, use them and the allGuides API call to explore this data for your own non-Looker purposes.
 
 All of these API calls use the following:
 
