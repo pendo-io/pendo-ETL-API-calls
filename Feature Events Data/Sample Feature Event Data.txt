@@ -1,0 +1,38 @@
+{
+  "results": [
+    {
+      "accountId": "tempAccount",
+      "appId": -323232,
+      "day": 1540008000000,
+      "featureId": "uQZVeRyEAODXLqvQJYvN51Ffsek",
+      "numEvents": 5,
+      "numMinutes": 1,
+      "remoteIp": "2405:204:1387:bbac:652a:c0eb:76b8:9177",
+      "server": "www.pendosandbox.com",
+      "userAgent": "Mozilla/5.0 (Mobile; LYF/F90M/LYF_F90M_000-03-06-290818; Android; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.5",
+      "visitorId": "temp"
+    },
+    {
+      "accountId": "Epsilon united",
+      "appId": -323232,
+      "day": 1531108800000,
+      "featureId": "4qxwyooqP_s_hHt8meR8lWDxSfo",
+      "numEvents": 1,
+      "numMinutes": 1,
+      "remoteIp": "204.16.137.218",
+      "server": "www.pendosandbox.com",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36",
+      "visitorId": "4"
+    },
+    {
+      "accountId": "Epsilon united",
+      "appId": -323232,
+      "day": 1531108800000,
+      "featureId": "ES7309bHFmdH799EB_M9FVJSw2s",
+      "numEvents": 1,
+      "numMinutes": 1,
+      "remoteIp": "204.16.137.218",
+      "server": "pendosandbox.com",
+      "userAgent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.99 Safari/537.36",
+      "visitorId": "4"
+    }
