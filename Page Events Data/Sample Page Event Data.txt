@@ -1,0 +1,38 @@
+{
+  "results": [
+    {
+      "accountId": "tempAccount",
+      "appId": -323232,
+      "day": 1543726800000,
+      "numEvents": 1,
+      "numMinutes": 1,
+      "pageId": "4nB8NFtp6zpThsvts93XukexIDc",
+      "remoteIp": "2409:4052:61f:2c3f:76bc:d3ab:6fb4:f18e",
+      "server": "www.pendosandbox.com",
+      "userAgent": "Mozilla/5.0 (Mobile; LYF/F90M/LYF_F90M_000-03-07-260918; Android; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.5",
+      "visitorId": "temp"
+    },
+    {
+      "accountId": "tempAccount",
+      "appId": -323232,
+      "day": 1543726800000,
+      "numEvents": 1,
+      "numMinutes": 1,
+      "pageId": "4nB8NFtp6zpThsvts93XukexIDc",
+      "remoteIp": "2409:4052:80b:b0c:55ef:9cfa:49e8:2d40",
+      "server": "www.pendosandbox.com",
+      "userAgent": "Mozilla/5.0 (Mobile; LYF/F90M/LYF_F90M_000-03-07-260918; Android; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.5",
+      "visitorId": "temp"
+    },
+    {
+      "accountId": "tempAccount",
+      "appId": -323232,
+      "day": 1543726800000,
+      "numEvents": 1,
+      "numMinutes": 1,
+      "pageId": "4nB8NFtp6zpThsvts93XukexIDc",
+      "remoteIp": "2409:4072:980:396a:8053:f3ca:4be4:a3f8",
+      "server": "www.pendosandbox.com",
+      "userAgent": "Mozilla/5.0 (Mobile; LYF/F120B/LYF-F120B-001-02-04-230818;Android; rv:48.0) Gecko/48.0 Firefox/48.0 KAIOS/2.5",
+      "visitorId": "temp"
+    }
