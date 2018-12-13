@@ -1,0 +1,43 @@
+{
+  "response": {
+    "mimeType": "application/json"
+  },
+  "request": {
+    "name": "Events",
+    "pipeline": [{
+      "source": {
+        "events": {
+          "eventClass": ["web", "ios"]
+        },
+        "timeSeries": {
+          "period": "dayRange",
+          "first": "now()",
+          "count": -1
+        }
+      }
+    }, {
+      "identified": "visitorId"
+    },
+    {"select": {
+        "numEvents": "numEvents",
+        "numMinutes": "numMinutes",
+        "accountId": "accountId",
+        "visitorId": "visitorId",
+				"day": "day"
+                }
+    },
+    {"group": {
+    "group": ["visitorId", "accountId", "day"],
+    "fields": {
+      "totalTime": { "sum": "numMinutes" },
+			"totalEvents": { "sum": "numEvents" }
+
+    					}
+  				}
+		}, 
+		{"sort": ["accountId", "totalTime"]}
+
+    ],
+    "requestId": "Events"
+  }
+}
