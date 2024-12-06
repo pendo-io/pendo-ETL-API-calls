@@ -27,4 +27,4 @@ Request bodies are provided in each example's folder.
 
 ## Additional Documentation
 
-Our full v1 API documentation can be found [here](https://help.pendo.io/resources/support-library/api/index.html).
+Our full v1 API documentation can be found [here](https://engageapi.pendo.io/).
